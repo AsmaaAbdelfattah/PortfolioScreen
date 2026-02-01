@@ -5,23 +5,33 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.white60,
+        backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Colors.blueGrey,
-          title: Text("Portfolio"),
+          title: Text(
+            "Portfolio",
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
           titleTextStyle: TextStyle(color: Colors.white),
         ),
         body: Column(
-          mainAxisAlignment: .center,
+          mainAxisAlignment: .start,
           children: [
-            CircleAvatar(child: Image.asset("assests/avatar.jpg", height: 500)),
-
+            SizedBox(height: 20),
+            CircleAvatar(
+              radius: 70,
+              backgroundImage: AssetImage("lib/assests/avatar.jpg"),
+            ),
             SizedBox(height: 10),
 
             Text(
               "Asmaa Mohammed",
               style: TextStyle(
-                color: Colors.blue,
+                color: Colors.black,
                 fontSize: 25,
                 fontWeight: FontWeight.w600,
               ),
@@ -37,17 +47,21 @@ void main() {
               ),
             ),
 
-            Divider(color: Colors.yellowAccent, height: 0.7),
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: Divider(color: Colors.indigo[600], height: 0.78),
+            ),
 
             SizedBox(height: 10),
             Container(
-              color: Colors.blueGrey,
-              margin: EdgeInsets.all(14),
               padding: EdgeInsets.all(14),
-              decoration: BoxDecoration(borderRadius: BorderRadius.circular(12)),
+              decoration: BoxDecoration(
+                color: Colors.blueGrey,
+                borderRadius: BorderRadius.circular(12),
+              ),
               child: Row(
                 children: [
-                  Icon(Icons.phone, size: 35),
+                  Icon(Icons.phone, size: 35, color: Colors.white),
                   SizedBox(width: 12),
                   Text(
                     "+2011184591149",
@@ -60,24 +74,24 @@ void main() {
                 ],
               ),
             ),
-            SizedBox(height: 10),
 
             SizedBox(height: 10),
             Container(
-              color: Colors.blueGrey,
-              margin: EdgeInsets.all(14),
               padding: EdgeInsets.all(14),
-              decoration: BoxDecoration(borderRadius: BorderRadius.circular(12)),
+              decoration: BoxDecoration(
+                color: Colors.blueGrey,
+                borderRadius: BorderRadius.circular(12),
+              ),
               child: Row(
                 children: [
-                  Icon(Icons.mail, size: 35),
+                  Icon(Icons.mail, size: 35, color: Colors.white),
                   SizedBox(width: 12),
                   Text(
                     "asmaa.fattah431@gmail.com",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 16,
-                      fontWeight: FontWeight.normal,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
                 ],
@@ -85,15 +99,15 @@ void main() {
             ),
             SizedBox(height: 10),
 
-            SizedBox(height: 10),
             Container(
-              color: Colors.blueGrey,
-              margin: EdgeInsets.all(14),
               padding: EdgeInsets.all(14),
-              decoration: BoxDecoration(borderRadius: BorderRadius.circular(12)),
+              decoration: BoxDecoration(
+                color: Colors.blueGrey,
+                borderRadius: BorderRadius.circular(12),
+              ),
               child: Row(
                 children: [
-                  Icon(Icons.web, size: 35),
+                  Icon(Icons.web, size: 35, color: Colors.white),
                   SizedBox(width: 12),
                   Text(
                     "+20111849",
