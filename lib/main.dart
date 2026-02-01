@@ -18,12 +18,13 @@ void main() {
           ),
           titleTextStyle: TextStyle(color: Colors.white),
         ),
+
         body: Column(
           mainAxisAlignment: .start,
           children: [
             SizedBox(height: 20),
             CircleAvatar(
-              radius: 70,
+              radius: 80,
               backgroundImage: AssetImage("lib/assests/avatar.jpg"),
             ),
             SizedBox(height: 10),
@@ -54,6 +55,7 @@ void main() {
 
             SizedBox(height: 10),
             Container(
+              margin: EdgeInsets.all(8),
               padding: EdgeInsets.all(14),
               decoration: BoxDecoration(
                 color: Colors.blueGrey,
@@ -77,6 +79,7 @@ void main() {
 
             SizedBox(height: 10),
             Container(
+                 margin: EdgeInsets.all(8),
               padding: EdgeInsets.all(14),
               decoration: BoxDecoration(
                 color: Colors.blueGrey,
@@ -100,6 +103,7 @@ void main() {
             SizedBox(height: 10),
 
             Container(
+                 margin: EdgeInsets.all(8),
               padding: EdgeInsets.all(14),
               decoration: BoxDecoration(
                 color: Colors.blueGrey,
