@@ -1,17 +1,54 @@
-# portfolio_app
+# 📱 Portfolio Screen – Flutter UI
 
-A new Flutter project.
+This project showcases a Portfolio Screen built using Flutter, designed to display personal information in a clean and structured layout.
+It follows Flutter best practices and uses core widgets to ensure readability, responsiveness, and maintainability.
 
-## Getting Started
+# ✨ Features
 
-This project is a starting point for a Flutter application.
+- Displays personal/portfolio information
 
-A few resources to get you started if this is your first Flutter project:
+- Clean and minimal UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Fully responsive layout
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# PortfolioScreen
+- Built using core Flutter widgets
+
+- Easy to customize and extend
+
+- 🧱 Widgets & Structure Used
+
+# MaterialApp
+
+- Root widget for the application
+
+- Provides Material Design styling
+
+# Scaffold
+
+- Base layout structure
+
+- Handles app screen layout properly
+
+# Padding
+
+- Adds consistent spacing around UI elements
+
+- Improves readability and visual hierarchy
+
+# SizedBox
+
+- Manages vertical and horizontal spacing
+
+- Keeps layout clean and well-organized
+
+# 🧩 Screen Layout Overview
+
+- App wrapped with MaterialApp
+
+- Main screen implemented using Scaffold
+
+Content arranged in a Column
+
+Spacing handled using Padding
+
+Layout separation done using SizedBox
