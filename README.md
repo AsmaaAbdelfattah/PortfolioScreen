@@ -47,8 +47,13 @@ It follows Flutter best practices and uses core widgets to ensure readability, r
 
 - Main screen implemented using Scaffold
 
-Content arranged in a Column
+- Content arranged in a Column
 
-Spacing handled using Padding
+- Spacing handled using Padding
 
-Layout separation done using SizedBox
+- Layout separation done using SizedBox
+
+# Screenshots
+
+<img width="1080" height="2400" alt="Screenshot_1769960369" src="https://github.com/user-attachments/assets/c39e13aa-1050-428c-92e9-7887e0df3a78" />
+
